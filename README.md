@@ -4,5 +4,6 @@
 
 ![FunnelQL Editor](https://github.com/FunnelQL/funnelql-editor/blob/master/docs/images/editor.png)
 
+## Install
 
-
+The package is available on NPM: `npm install funnelql-editor`.

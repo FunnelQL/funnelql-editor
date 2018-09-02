@@ -48,26 +48,21 @@ module.exports = function(grunt) {
                     },
                     banner: ''
                 },
-                files: [{
-                    expand: true,
-                    src: [
-                        'funnelql-editor.js'
-                    ],
-                    dest: 'min',
-                    cwd: 'iife/'
-                }]
+                files: {
+                    'min/funnelql-editor.js': [
+                        'iife/funnelql-editor.js'
+                    ]
+                }
             },
 
             // CodeMirror Javascript editor source code
             codemirror: {
                 options: {
-                    compress: {
-
-                    },
+                    compress: {},
                     banner: ''
                 },
                 files: {
-                    'min/funnelql-codemirror.js': [
+                    'dist/funnelql-codemirror.js': [
                         'node_modules/codemirror/lib/codemirror.js',
                         'node_modules/codemirror/addon/lint/lint.js',
                         'src/codemirror-funnelql-mode.js',
@@ -90,7 +85,8 @@ module.exports = function(grunt) {
                     language_in: 'ECMASCRIPT5_STRICT',
                     externs: ['./ext.funnelql.js', './ext.funnelql-editor.js', './ext.codemirror.js']
                 }
-            },
+            }
+            /*,
             "codemirror": {
                 closurePath: CLOSURE_COMPILER_PATH,
                 js: 'min/funnelql-codemirror.js',
@@ -102,7 +98,7 @@ module.exports = function(grunt) {
                     language_in: 'ECMASCRIPT5_STRICT',
                     externs: ['./ext.funnelql.js', './ext.funnelql-editor.js', './ext.codemirror.js']
                 }
-            }
+            }*/
         },
 
         // CSS
@@ -168,13 +164,13 @@ module.exports = function(grunt) {
             options: {
                 separator: ';',
             },
-            dist: {
+            codemirror: {
                 src: [
                     'dist/funnelql-codemirror.js',
                     'dist/funnelql-editor.js'
                 ],
                 dest: 'dist/funnelql-editor+codemirror.js',
-            },
+            }
         },
 
         copy: {

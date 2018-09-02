@@ -1,25 +1,26 @@
 {
-  "name": "funnelql-editor",
-  "version": "1.0.1",
-  "description": "Funnel Query Language Editor",
-  "author": {
-    "name": "info@funnelql.com",
-    "email": "info@funnelql.com",
-    "web": "funnelql.com"
-  },
-  "engines": {
-    "node": "~0.10"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "codemirror": "^5.40.0",
-    "grunt": "latest",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-header": "latest",
-    "grunt-iife": "latest",
-    "matchdep": "latest"
-  }
+    "name": "funnelql-editor",
+    "version": "1.0.1",
+    "description": "Funnel Query Language Editor",
+    "author": {
+        "name": "info@funnelql.com",
+        "email": "info@funnelql.com",
+        "web": "funnelql.com"
+    },
+    "license": "GPL-3.0+",
+    "engines": {
+        "node": "~0.10"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "codemirror": "^5.40.0",
+        "grunt": "latest",
+        "grunt-contrib-concat": "latest",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-header": "latest",
+        "grunt-iife": "latest",
+        "matchdep": "latest"
+    }
 }

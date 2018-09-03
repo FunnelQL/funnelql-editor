@@ -4,7 +4,7 @@
 
 [CodeMirror](https://github.com/codemirror/CodeMirror) based WYSIWYG editor with lint (error reporting) for Funnel Query Language.
 
-* [Documentation](https://docs.funnelql.com/)
+<h3><a href="https://docs.funnelql.com/" target="_blank">Documentation</a> | <a href="https://funnelql.com/" target="_blank">Online Editor</a></h3>
 
 ![FunnelQL Editor](https://github.com/FunnelQL/funnelql-editor/blob/master/docs/images/editor.png)
 

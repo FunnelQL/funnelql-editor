@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/funnelql-editor.png)](https://badge.fury.io/js/funnelql-editor)
+[![npm version](https://badge.fury.io/js/funnelql-editor.svg)](https://badge.fury.io/js/funnelql-editor)
 
 # Funnel Query Language Editor
 

@@ -115,6 +115,24 @@ module.exports = function(grunt) {
 
                     // control panel
                     'dist/funnelql-editor.css': [
+                        'src/funnelql-editor.css',
+                        'src/icomoon/style.css'
+                    ],
+
+                }
+            },
+
+            "editor-codemirror": {
+                options: {
+                    banner: '/*! CodeMirror + FunnelQL Editor v<%= pkg.version %>\n * CodeMirror (c) http://codemirror.net/\n * FunnelQL (c) https://funnelql.com/ */',
+                    advanced: true,
+                    aggressiveMerging: true,
+                    processImport: true
+                },
+                files: {
+
+                    // control panel
+                    'dist/funnelql-editor+codemirror.css': [
                         'node_modules/codemirror/lib/codemirror.css',
                         'node_modules/codemirror/addon/lint/lint.css',
                         'src/funnelql-editor.css',

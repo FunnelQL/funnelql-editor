@@ -1,4 +1,4 @@
-/*! FunnelQL Editor v1.0.2
+/*! FunnelQL Editor v1.0.4
  * (c) https://funnelql.com/ */
 !function(H){function L(){if(console&&console.error){var c=Array.prototype.slice.call(arguments);c.unshift("font-size:12px;font-weight:bold;color:#333;margin-right:1px;");c.unshift("font-size:8px;color:black;");c.unshift("font-size:8px;font-weight:bold;color:black;");c.unshift("font-size:12px;font-weight:bold;color:blue;margin-right:1px;");"%c\u0192";c.unshift("font-size:12px;font-weight:bold;color:#333;margin-right:1px;");c.unshift("%c\u2772%c\u0192%cQL%c Editor%c\u2773");console.error.apply(null,
 c)}}function u(c){return"string"==typeof c}function I(c,a,d){if(d||(d=v),c instanceof Array)for(var b=c.length,e=0;e<b;e++)I(c[e],a,d);else if(aa)d.addEventListener(c,a,!1);else if(d.attachEvent)"DOMContentLoaded"===c&&(c="load",d=H),d.attachEvent("on"+c,a);else try{d["on"+c]=a}catch(B){}}function x(c,a){return a||(a=v),a.getElementsByClassName(c)}function t(c,a,d){return a||(a=v),d?a.querySelectorAll(c):a.querySelector(c)}function n(c,a){return t("[name="+c+"]",a,void 0)}function k(c,a,d){c=v.createElement(c);

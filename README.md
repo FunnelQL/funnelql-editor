@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/funnelql-editor.svg)](https://badge.fury.io/js/funnelql-editor)
+
 # Funnel Query Language Editor
 
 [CodeMirror](https://github.com/codemirror/CodeMirror) based WYSIWYG editor with lint (error reporting) for Funnel Query Language.
